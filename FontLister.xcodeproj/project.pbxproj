@@ -16,6 +16,7 @@
 		F33BFC0514330B7000FA4CC9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33BFC0314330B7000FA4CC9 /* MainWindow.xib */; };
 		F33BFC0814330B7000FA4CC9 /* FontListerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33BFC0714330B7000FA4CC9 /* FontListerViewController.m */; };
 		F33BFC0B14330B7000FA4CC9 /* FontListerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33BFC0914330B7000FA4CC9 /* FontListerViewController.xib */; };
+		F33BFC1D14330C6700FA4CC9 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33BFC1B14330C6700FA4CC9 /* MainWindow-iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		F33BFBF114330B7000FA4CC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F33BFBF314330B7000FA4CC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F33BFBF514330B7000FA4CC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F33BFBF914330B7000FA4CC9 /* FontLister-Info.plist */ = {isa = PBXFileReference; path = "FontLister-Info.plist"; sourceTree = "<group>"; };
+		F33BFBF914330B7000FA4CC9 /* FontLister-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontLister-Info.plist"; sourceTree = "<group>"; };
 		F33BFBFB14330B7000FA4CC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F33BFBFD14330B7000FA4CC9 /* FontLister-Prefix.pch */ = {isa = PBXFileReference; path = "FontLister-Prefix.pch"; sourceTree = "<group>"; };
+		F33BFBFD14330B7000FA4CC9 /* FontLister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontLister-Prefix.pch"; sourceTree = "<group>"; };
 		F33BFBFE14330B7000FA4CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F33BFC0014330B7000FA4CC9 /* FontListerAppDelegate.h */ = {isa = PBXFileReference; path = FontListerAppDelegate.h; sourceTree = "<group>"; };
+		F33BFC0014330B7000FA4CC9 /* FontListerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontListerAppDelegate.h; sourceTree = "<group>"; };
 		F33BFC0114330B7000FA4CC9 /* FontListerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontListerAppDelegate.m; sourceTree = "<group>"; };
 		F33BFC0414330B7000FA4CC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F33BFC0614330B7000FA4CC9 /* FontListerViewController.h */ = {isa = PBXFileReference; path = FontListerViewController.h; sourceTree = "<group>"; };
+		F33BFC0614330B7000FA4CC9 /* FontListerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontListerViewController.h; sourceTree = "<group>"; };
 		F33BFC0714330B7000FA4CC9 /* FontListerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontListerViewController.m; sourceTree = "<group>"; };
 		F33BFC0A14330B7000FA4CC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FontListerViewController.xib; sourceTree = "<group>"; };
+		F33BFC1C14330C6700FA4CC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F33BFBF714330B7000FA4CC9 /* FontLister */ = {
 			isa = PBXGroup;
 			children = (
+				F33BFC1A14330C6700FA4CC9 /* iPad */,
 				F33BFC0014330B7000FA4CC9 /* FontListerAppDelegate.h */,
 				F33BFC0114330B7000FA4CC9 /* FontListerAppDelegate.m */,
 				F33BFC0314330B7000FA4CC9 /* MainWindow.xib */,
@@ -99,6 +102,14 @@
 				F33BFBFE14330B7000FA4CC9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F33BFC1A14330C6700FA4CC9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F33BFC1B14330C6700FA4CC9 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				F33BFBFC14330B7000FA4CC9 /* InfoPlist.strings in Resources */,
 				F33BFC0514330B7000FA4CC9 /* MainWindow.xib in Resources */,
 				F33BFC0B14330B7000FA4CC9 /* FontListerViewController.xib in Resources */,
+				F33BFC1D14330C6700FA4CC9 /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +204,14 @@
 				F33BFC0A14330B7000FA4CC9 /* en */,
 			);
 			name = FontListerViewController.xib;
+			sourceTree = "<group>";
+		};
+		F33BFC1B14330C6700FA4CC9 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33BFC1C14330C6700FA4CC9 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -238,7 +258,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontLister/FontLister-Prefix.pch";
 				INFOPLIST_FILE = "FontLister/FontLister-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -251,7 +273,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontLister/FontLister-Prefix.pch";
 				INFOPLIST_FILE = "FontLister/FontLister-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +300,7 @@
 				F33BFC1014330B7000FA4CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

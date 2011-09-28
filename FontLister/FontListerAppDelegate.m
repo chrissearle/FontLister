@@ -1,11 +1,3 @@
-//
-//  FontListerAppDelegate.m
-//  FontLister
-//
-//  Created by Chris Searle on 28.09.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "FontListerAppDelegate.h"
 
 #import "FontListerViewController.h"
